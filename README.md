@@ -12,4 +12,4 @@ The files are:
   certificate in DER format
 - https://github.com/ajanicij/x509-tutorial/blob/master/google.com.txt - output
   from command openssl x509 -in google.com.pem -text
-- x509-analysis.md - main text
+- https://github.com/ajanicij/x509-tutorial/blob/master/x509-analysis.md - main text
