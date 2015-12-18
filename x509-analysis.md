@@ -449,28 +449,28 @@ Certificate Analysis
 
 Now, finally, we dive into the certificate:
 
-Certificate  ::=  SEQUENCE  {
-  tbsCertificate       TBSCertificate,
-  signatureAlgorithm   AlgorithmIdentifier,
-  signatureValue       BIT STRING  }
+ Certificate  ::=  SEQUENCE  {
+   tbsCertificate       TBSCertificate,
+   signatureAlgorithm   AlgorithmIdentifier,
+   signatureValue       BIT STRING  }
 
 3082 06eb - SEQUENCE with length 0x06eb
 
-TBSCertificate  ::=  SEQUENCE  {
-  version         [0]  EXPLICIT Version DEFAULT v1,
-  serialNumber         CertificateSerialNumber,
-  signature            AlgorithmIdentifier,
-  issuer               Name,
-  validity             Validity,
-  subject              Name,
-  subjectPublicKeyInfo SubjectPublicKeyInfo,
-  issuerUniqueID  [1]  IMPLICIT UniqueIdentifier OPTIONAL,
-  -- If present, version MUST be v2 or v3
-  subjectUniqueID [2]  IMPLICIT UniqueIdentifier OPTIONAL,
-  -- If present, version MUST be v2 or v3
-  extensions      [3]  EXPLICIT Extensions OPTIONAL
-  -- If present, version MUST be v3
-}
+    TBSCertificate  ::=  SEQUENCE  {
+        version         [0]  EXPLICIT Version DEFAULT v1,
+        serialNumber         CertificateSerialNumber,
+        signature            AlgorithmIdentifier,
+        issuer               Name,
+        validity             Validity,
+        subject              Name,
+        subjectPublicKeyInfo SubjectPublicKeyInfo,
+        issuerUniqueID  [1]  IMPLICIT UniqueIdentifier OPTIONAL,
+        -- If present, version MUST be v2 or v3
+        subjectUniqueID [2]  IMPLICIT UniqueIdentifier OPTIONAL,
+        -- If present, version MUST be v2 or v3
+        extensions      [3]  EXPLICIT Extensions OPTIONAL
+        -- If present, version MUST be v3
+    }
 
 3082 05d3 - SEQUENCE with length 0x05d3
 
