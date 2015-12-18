@@ -50,8 +50,6 @@ http://luca.ntop.org/Teaching/Appunti/asn1.html
 DER Encoding of ASN.1 types:
 https://msdn.microsoft.com/en-us/library/windows/desktop/bb648640%28v=vs.85%29.aspx
 
-There is lots more out there on the Web, feel free to go search.
-
 
 Useful Web Sites
 ----------------
