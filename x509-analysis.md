@@ -730,6 +730,7 @@ SubjectAltName ::= GeneralNames
 82 0d - context-specific external tag 2 with length 0x0d = 13
 
 and so on:
+
         2a2e 616e  *.an
         00001a0: 6472 6f69 642e 636f 6d82 162a 2e61 7070  droid.com..*.app
         00001b0: 656e 6769 6e65 2e67 6f6f 676c 652e 636f  engine.google.co
