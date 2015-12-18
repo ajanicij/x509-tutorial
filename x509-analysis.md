@@ -394,7 +394,7 @@ so they are three numbers, 1, 1, and 11. That gives are the OID
 1.2.840.113549.1.1.11
 
 In order to find what this OID means, we can use web site
-http://http://www.oid-info.com. There is a box with the label Display OID, and
+http://www.oid-info.com. There is a box with the label Display OID, and
 we copy-paste our OID to the text box. After we click on the Go button, the
 web app gives us the meaning of our OID. Here it is in  the ASN.1 notation:
 
