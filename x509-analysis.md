@@ -476,7 +476,7 @@ TBSCertificate  ::=  SEQUENCE  {
 
 3082 05d3 - SEQUENCE with length 0x05d3
 
-a003 0201 02 - version [0] EXPLICIT Version DEFAULT v1
+a0 03 02 01 02 - version [0] EXPLICIT Version DEFAULT v1
 
 02 08 20 3f 89 1f c8 b6 29 20 - serialNumber CertificateSerialNumber
   ( 02 - INTEGER, 08 - length, integer value: 0x203f891fc8b62920)
@@ -561,7 +561,7 @@ DirectoryString ::= CHOICE {
   2.5.4.3 = id-at-commonName
 
 13 1c 47 6f 6f 67 6c 65 20 49 6e 74 65
-726e 6574 2041 7574 686f 7269 7479 2047
+72 6e 65 74 20 41 75 74 68 6f 72 69 74 79 20 47
 32 - PrintableString "Google Internet Authority G2"
 
 validity             Validity
