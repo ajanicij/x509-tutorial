@@ -730,58 +730,58 @@ SubjectAltName ::= GeneralNames
 82 0d - context-specific external tag 2 with length 0x0d = 13
 
 and so on:
-2a2e 616e  *.an
-00001a0: 6472 6f69 642e 636f 6d82 162a 2e61 7070  droid.com..*.app
-00001b0: 656e 6769 6e65 2e67 6f6f 676c 652e 636f  engine.google.co
-00001c0: 6d82 122a 2e63 6c6f 7564 2e67 6f6f 676c  m..*.cloud.googl
-00001d0: 652e 636f 6d82 162a 2e67 6f6f 676c 652d  e.com..*.google-
-00001e0: 616e 616c 7974 6963 732e 636f 6d82 0b2a  analytics.com..*
-00001f0: 2e67 6f6f 676c 652e 6361 820b 2a2e 676f  .google.ca..*.go
-0000200: 6f67 6c65 2e63 6c82 0e2a 2e67 6f6f 676c  ogle.cl..*.googl
-0000210: 652e 636f 2e69 6e82 0e2a 2e67 6f6f 676c  e.co.in..*.googl
-0000220: 652e 636f 2e6a 7082 0e2a 2e67 6f6f 676c  e.co.jp..*.googl
-0000230: 652e 636f 2e75 6b82 0f2a 2e67 6f6f 676c  e.co.uk..*.googl
-0000240: 652e 636f 6d2e 6172 820f 2a2e 676f 6f67  e.com.ar..*.goog
-0000250: 6c65 2e63 6f6d 2e61 7582 0f2a 2e67 6f6f  le.com.au..*.goo
-0000260: 676c 652e 636f 6d2e 6272 820f 2a2e 676f  gle.com.br..*.go
-0000270: 6f67 6c65 2e63 6f6d 2e63 6f82 0f2a 2e67  ogle.com.co..*.g
-0000280: 6f6f 676c 652e 636f 6d2e 6d78 820f 2a2e  oogle.com.mx..*.
-0000290: 676f 6f67 6c65 2e63 6f6d 2e74 7282 0f2a  google.com.tr..*
-00002a0: 2e67 6f6f 676c 652e 636f 6d2e 766e 820b  .google.com.vn..
-00002b0: 2a2e 676f 6f67 6c65 2e64 6582 0b2a 2e67  *.google.de..*.g
-00002c0: 6f6f 676c 652e 6573 820b 2a2e 676f 6f67  oogle.es..*.goog
-00002d0: 6c65 2e66 7282 0b2a 2e67 6f6f 676c 652e  le.fr..*.google.
-00002e0: 6875 820b 2a2e 676f 6f67 6c65 2e69 7482  hu..*.google.it.
-00002f0: 0b2a 2e67 6f6f 676c 652e 6e6c 820b 2a2e  .*.google.nl..*.
-0000300: 676f 6f67 6c65 2e70 6c82 0b2a 2e67 6f6f  google.pl..*.goo
-0000310: 676c 652e 7074 8212 2a2e 676f 6f67 6c65  gle.pt..*.google
-0000320: 6164 6170 6973 2e63 6f6d 820f 2a2e 676f  adapis.com..*.go
-0000330: 6f67 6c65 6170 6973 2e63 6e82 142a 2e67  ogleapis.cn..*.g
-0000340: 6f6f 676c 6563 6f6d 6d65 7263 652e 636f  ooglecommerce.co
-0000350: 6d82 112a 2e67 6f6f 676c 6576 6964 656f  m..*.googlevideo
-0000360: 2e63 6f6d 820c 2a2e 6773 7461 7469 632e  .com..*.gstatic.
-0000370: 636e 820d 2a2e 6773 7461 7469 632e 636f  cn..*.gstatic.co
-0000380: 6d82 0a2a 2e67 7674 312e 636f 6d82 0a2a  m..*.gvt1.com..*
-0000390: 2e67 7674 322e 636f 6d82 142a 2e6d 6574  .gvt2.com..*.met
-00003a0: 7269 632e 6773 7461 7469 632e 636f 6d82  ric.gstatic.com.
-00003b0: 0c2a 2e75 7263 6869 6e2e 636f 6d82 102a  .*.urchin.com..*
-00003c0: 2e75 726c 2e67 6f6f 676c 652e 636f 6d82  .url.google.com.
-00003d0: 162a 2e79 6f75 7475 6265 2d6e 6f63 6f6f  .*.youtube-nocoo
-00003e0: 6b69 652e 636f 6d82 0d2a 2e79 6f75 7475  kie.com..*.youtu
-00003f0: 6265 2e63 6f6d 8216 2a2e 796f 7574 7562  be.com..*.youtub
-0000400: 6565 6475 6361 7469 6f6e 2e63 6f6d 820b  eeducation.com..
-0000410: 2a2e 7974 696d 672e 636f 6d82 1a61 6e64  *.ytimg.com..and
-0000420: 726f 6964 2e63 6c69 656e 7473 2e67 6f6f  roid.clients.goo
-0000430: 676c 652e 636f 6d82 0b61 6e64 726f 6964  gle.com..android
-0000440: 2e63 6f6d 8204 672e 636f 8206 676f 6f2e  .com..g.co..goo.
-0000450: 676c 8214 676f 6f67 6c65 2d61 6e61 6c79  gl..google-analy
-0000460: 7469 6373 2e63 6f6d 820a 676f 6f67 6c65  tics.com..google
-0000470: 2e63 6f6d 8212 676f 6f67 6c65 636f 6d6d  .com..googlecomm
-0000480: 6572 6365 2e63 6f6d 820a 7572 6368 696e  erce.com..urchin
-0000490: 2e63 6f6d 8208 796f 7574 752e 6265 820b  .com..youtu.be..
-00004a0: 796f 7574 7562 652e 636f 6d82 1479 6f75  youtube.com..you
-00004b0: 7475 6265 6564 7563 6174 696f 6e2e 636f  tubeeducation.co
-00004c0: 6d                                       m
+    2a2e 616e  *.an
+    00001a0: 6472 6f69 642e 636f 6d82 162a 2e61 7070  droid.com..*.app
+    00001b0: 656e 6769 6e65 2e67 6f6f 676c 652e 636f  engine.google.co
+    00001c0: 6d82 122a 2e63 6c6f 7564 2e67 6f6f 676c  m..*.cloud.googl
+    00001d0: 652e 636f 6d82 162a 2e67 6f6f 676c 652d  e.com..*.google-
+    00001e0: 616e 616c 7974 6963 732e 636f 6d82 0b2a  analytics.com..*
+    00001f0: 2e67 6f6f 676c 652e 6361 820b 2a2e 676f  .google.ca..*.go
+    0000200: 6f67 6c65 2e63 6c82 0e2a 2e67 6f6f 676c  ogle.cl..*.googl
+    0000210: 652e 636f 2e69 6e82 0e2a 2e67 6f6f 676c  e.co.in..*.googl
+    0000220: 652e 636f 2e6a 7082 0e2a 2e67 6f6f 676c  e.co.jp..*.googl
+    0000230: 652e 636f 2e75 6b82 0f2a 2e67 6f6f 676c  e.co.uk..*.googl
+    0000240: 652e 636f 6d2e 6172 820f 2a2e 676f 6f67  e.com.ar..*.goog
+    0000250: 6c65 2e63 6f6d 2e61 7582 0f2a 2e67 6f6f  le.com.au..*.goo
+    0000260: 676c 652e 636f 6d2e 6272 820f 2a2e 676f  gle.com.br..*.go
+    0000270: 6f67 6c65 2e63 6f6d 2e63 6f82 0f2a 2e67  ogle.com.co..*.g
+    0000280: 6f6f 676c 652e 636f 6d2e 6d78 820f 2a2e  oogle.com.mx..*.
+    0000290: 676f 6f67 6c65 2e63 6f6d 2e74 7282 0f2a  google.com.tr..*
+    00002a0: 2e67 6f6f 676c 652e 636f 6d2e 766e 820b  .google.com.vn..
+    00002b0: 2a2e 676f 6f67 6c65 2e64 6582 0b2a 2e67  *.google.de..*.g
+    00002c0: 6f6f 676c 652e 6573 820b 2a2e 676f 6f67  oogle.es..*.goog
+    00002d0: 6c65 2e66 7282 0b2a 2e67 6f6f 676c 652e  le.fr..*.google.
+    00002e0: 6875 820b 2a2e 676f 6f67 6c65 2e69 7482  hu..*.google.it.
+    00002f0: 0b2a 2e67 6f6f 676c 652e 6e6c 820b 2a2e  .*.google.nl..*.
+    0000300: 676f 6f67 6c65 2e70 6c82 0b2a 2e67 6f6f  google.pl..*.goo
+    0000310: 676c 652e 7074 8212 2a2e 676f 6f67 6c65  gle.pt..*.google
+    0000320: 6164 6170 6973 2e63 6f6d 820f 2a2e 676f  adapis.com..*.go
+    0000330: 6f67 6c65 6170 6973 2e63 6e82 142a 2e67  ogleapis.cn..*.g
+    0000340: 6f6f 676c 6563 6f6d 6d65 7263 652e 636f  ooglecommerce.co
+    0000350: 6d82 112a 2e67 6f6f 676c 6576 6964 656f  m..*.googlevideo
+    0000360: 2e63 6f6d 820c 2a2e 6773 7461 7469 632e  .com..*.gstatic.
+    0000370: 636e 820d 2a2e 6773 7461 7469 632e 636f  cn..*.gstatic.co
+    0000380: 6d82 0a2a 2e67 7674 312e 636f 6d82 0a2a  m..*.gvt1.com..*
+    0000390: 2e67 7674 322e 636f 6d82 142a 2e6d 6574  .gvt2.com..*.met
+    00003a0: 7269 632e 6773 7461 7469 632e 636f 6d82  ric.gstatic.com.
+    00003b0: 0c2a 2e75 7263 6869 6e2e 636f 6d82 102a  .*.urchin.com..*
+    00003c0: 2e75 726c 2e67 6f6f 676c 652e 636f 6d82  .url.google.com.
+    00003d0: 162a 2e79 6f75 7475 6265 2d6e 6f63 6f6f  .*.youtube-nocoo
+    00003e0: 6b69 652e 636f 6d82 0d2a 2e79 6f75 7475  kie.com..*.youtu
+    00003f0: 6265 2e63 6f6d 8216 2a2e 796f 7574 7562  be.com..*.youtub
+    0000400: 6565 6475 6361 7469 6f6e 2e63 6f6d 820b  eeducation.com..
+    0000410: 2a2e 7974 696d 672e 636f 6d82 1a61 6e64  *.ytimg.com..and
+    0000420: 726f 6964 2e63 6c69 656e 7473 2e67 6f6f  roid.clients.goo
+    0000430: 676c 652e 636f 6d82 0b61 6e64 726f 6964  gle.com..android
+    0000440: 2e63 6f6d 8204 672e 636f 8206 676f 6f2e  .com..g.co..goo.
+    0000450: 676c 8214 676f 6f67 6c65 2d61 6e61 6c79  gl..google-analy
+    0000460: 7469 6373 2e63 6f6d 820a 676f 6f67 6c65  tics.com..google
+    0000470: 2e63 6f6d 8212 676f 6f67 6c65 636f 6d6d  .com..googlecomm
+    0000480: 6572 6365 2e63 6f6d 820a 7572 6368 696e  erce.com..urchin
+    0000490: 2e63 6f6d 8208 796f 7574 752e 6265 820b  .com..youtu.be..
+    00004a0: 796f 7574 7562 652e 636f 6d82 1479 6f75  youtube.com..you
+    00004b0: 7475 6265 6564 7563 6174 696f 6e2e 636f  tubeeducation.co
+    00004c0: 6d                                       m
 
 Extension  ::=  SEQUENCE  {
   extnID      OBJECT IDENTIFIER,
