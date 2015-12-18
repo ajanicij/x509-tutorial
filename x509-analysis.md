@@ -449,10 +449,10 @@ Certificate Analysis
 
 Now, finally, we dive into the certificate:
 
- Certificate  ::=  SEQUENCE  {
-   tbsCertificate       TBSCertificate,
-   signatureAlgorithm   AlgorithmIdentifier,
-   signatureValue       BIT STRING  }
+    Certificate  ::=  SEQUENCE  {
+        tbsCertificate       TBSCertificate,
+        signatureAlgorithm   AlgorithmIdentifier,
+        signatureValue       BIT STRING  }
 
 3082 06eb - SEQUENCE with length 0x06eb
 
